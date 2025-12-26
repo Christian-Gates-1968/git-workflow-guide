@@ -34,6 +34,19 @@ Save staged changes with a descriptive message.
 ```bash
 git commit -m "Describe what you changed"
 ```
+## 🔗 First-Time Push (Setting Upstream)
+
+If you are pushing a new branch or repository for the first time, you must link it to the remote.
+
+**1. Link your repository (if not done yet):**
+```bash
+git remote add origin <repository-url>
+```
+Push and set upstream:
+```bash
+git push -u origin main
+```
+(Use -u only once. After that, you can just use git push.)
 🚀 Push Changes
 
 Upload local commits to the remote repository.

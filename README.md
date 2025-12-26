@@ -47,6 +47,7 @@ Push and set upstream:
 git push -u origin main
 ```
 (Use -u only once. After that, you can just use git push.)
+
 🚀 Push Changes
 
 Upload local commits to the remote repository.
